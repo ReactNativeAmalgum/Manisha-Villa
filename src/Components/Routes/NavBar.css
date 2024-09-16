@@ -1,0 +1,95 @@
+/* Default Nav hidden by default, opened via menu-trigger */
+.nav {
+  display: none !important;
+}
+
+.nav.open {
+  display: block !important;
+}
+
+
+
+.nav-link {
+  display: flex !important;
+  align-items: center !important;
+}
+
+/* Dropdown menu items styling */
+.dropdown-menu li {
+  height: 50px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.dropdown-item {
+  text-align: center !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+/* Menu trigger visible only for small screens */
+.menu-trigger {
+  display: block !important;
+  cursor: pointer !important;
+}
+
+.dropdown-menu {
+  display: none; 
+  position: absolute; 
+  width: 100%; 
+  top: 100%; 
+  left: 0;
+  z-index: 1000; 
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+dropdown-menu.show {
+  display: block; /* Show when needed */
+}
+
+/* For larger screens */
+@media (min-width: 769px) {
+  .nav {
+    display: flex !important;
+  }
+  .menu-trigger {
+    display: none !important;
+  }
+}
+
+/* For screens below 768px */
+@media (max-width: 768px) {
+  /* Dropdown centered and responsive */
+  .dropdown {
+    justify-content: center !important;
+    display: flex !important;
+    align-items: center !important;
+    text-align: center !important;
+    width: 100%;
+  }
+.nav li{
+  display: flex;
+  justify-content: center !important;
+}
+  .show {
+    display: flex !important;
+    position: absolute;
+    justify-content: center !important;
+    /* top:0px !important; */
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+  }
+  
+  /* Increase spacing and make touch-friendly */
+  .dropdown-menu .dropdown-item {
+    padding: 5px 20px !important;
+    font-size: 18px; /* Larger font for readability */
+    margin: 10px 0;
+    width: 100%; /* Ensure full width for dropdown items */
+    height: 100% !important;
+    text-align: center; /* Center text */
+  }
+}
