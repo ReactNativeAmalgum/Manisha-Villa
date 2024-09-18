@@ -27,6 +27,7 @@
   text-align: center !important;
   display: flex !important;
   align-items: center !important;
+
   justify-content: center !important;
 }
 
@@ -49,7 +50,9 @@
 dropdown-menu.show {
   display: block; /* Show when needed */
 }
-
+.dropdown-menu .drop-navlink {
+  font-weight: 400 !important;
+}
 /* For larger screens */
 @media (min-width: 769px) {
   .nav {
@@ -58,6 +61,8 @@ dropdown-menu.show {
   .menu-trigger {
     display: none !important;
   }
+
+  
 }
 
 /* For screens below 768px */
@@ -86,10 +91,24 @@ dropdown-menu.show {
   /* Increase spacing and make touch-friendly */
   .dropdown-menu .dropdown-item {
     padding: 5px 20px !important;
+    
     font-size: 18px; /* Larger font for readability */
     margin: 10px 0;
     width: 100%; /* Ensure full width for dropdown items */
     height: 100% !important;
     text-align: center; /* Center text */
   }
+  .drop-navlink {
+    font-weight: 400 !important;
+  }
+  .dropdown-menu .drop-navlink {
+    font-weight: 400 !important;
+  }
+  .dropdown-menu .special-li{
+    padding:0px !important
+  }
+}
+
+.special-li span{
+  font-weight: 400 !important;
 }

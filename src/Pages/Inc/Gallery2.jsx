@@ -40,7 +40,7 @@ function Gallery2() {
               <span className="breadcrumb">
                 <a href="#">Home</a> / Gallery
               </span>
-              <h3>Gallery</h3>
+              <h3>Manisha 2's Gallery</h3>
             </div>
           </div>
         </div>

@@ -4,6 +4,7 @@ import { FaCalendar } from 'react-icons/fa';
 import logo from '../Assets/logo.jpg';
 import { useNavigate } from 'react-router';
 import './NavBar.css'
+import '../../App.css'
 import Dropdown from 'react-bootstrap/Dropdown';
 import { Link, NavLink } from 'react-router-dom';
 
@@ -39,7 +40,7 @@ export default function Navbars() {
                                 </a>
                                 {/* ***** Logo End ***** */}
                                 {/* ***** Menu Start ***** */}
-                                <ul onClick={closeMenu} className={`nav ${isMenuOpen ? 'open' : ''}`}>
+                                <ul className={`nav ${isMenuOpen ? 'open' : ''}`}>
                                     <li>
                                         <a href="/" className="active">Home</a>
                                     </li>
@@ -47,55 +48,66 @@ export default function Navbars() {
                                         <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                             Pages
                                         </a>
-                                        ;
 
-                                        <ul style={{ position: 'absolute' }} className="dropdown-menu">
-                                            <li>
+
+                                        <ul style={{ position: 'absolute' }} className="dropdown-menu special-dropmenu">
+                                            <li onClick={closeMenu} className='special-li' >
                                                 <NavLink
-                                                    className="drop-navlink dropdown-item"
+                                                    className="drop-navlink dropdown-item special-dropmenu"
                                                     to="/about"
                                                     style={({ isActive }) => ({
-                                                        backgroundColor: isActive ? 'black' : 'transparent',
+                                                        // backgroundColor: isActive ? 'black' : 'transparent',
                                                         color: isActive ? 'white' : '#f35525',
                                                         fontWeight: 500,
                                                         fontSize: 16,
-                                                        borderRadius:30
-                                                        
+                                                        borderRadius: 30
+
                                                     })}
                                                 >
                                                     Manisha 1
                                                 </NavLink>
                                             </li>
-                                            <li>
+                                            <li onClick={closeMenu} className='special-li' >
                                                 <NavLink
-                                                    className="drop-navlink dropdown-item"
+                                                    className="drop-navlink dropdown-item special-li"
                                                     to="/manisha2"
                                                     style={({ isActive }) => ({
-                                                        backgroundColor: isActive ? 'black' : 'transparent',
+                                                        // backgroundColor: isActive ? 'black' : 'transparent',
                                                         color: isActive ? 'white' : '#f35525',
-                                                        fontWeight: 500,
-                                                        fontSize: 16,
-                                                        borderRadius:30
 
-                                                    })}
-                                                >
-                                                    Manisha 2
-                                                </NavLink>
-                                            </li>
-                                            <li>
-                                                <NavLink
-                                                    className="drop-navlink dropdown-item"
-                                                    to="/aboutowner"
-                                                    style={({ isActive }) => ({
-                                                        backgroundColor: isActive ? 'black' : 'transparent',
-                                                        color: isActive ? 'white' : '#f35525',
-                                                        fontWeight: 500,
                                                         fontSize: 16,
-                                                        borderRadius:30
+                                                        borderRadius: 30,
+                                                        paddingLeft: 15,
                                                         
                                                     })}
                                                 >
-                                                    About Owner
+                                                    <span style={{fontWeight:400}}>
+                                                    Manisha 2
+                                                    </span>
+                                                </NavLink>
+                                            </li>
+                                            <li onClick={closeMenu} style={{
+                                                textAlign: 'center',
+                                                display: 'flex',
+                                                alignItems: 'center',
+
+                                                justifyContent: 'center',
+                                            }} className='special-li' >
+                                                <NavLink
+                                                    className="drop-navlink dropdown-item aboutowner special-dropmenu"
+                                                    to="/aboutowner"
+                                                    style={({ isActive }) => ({
+                                                        // backgroundColor: isActive ? 'black' : 'transparent',
+                                                        color: isActive ? 'white' : '#f35525',
+                                                        fontSize: 16,
+                                                        borderRadius: 30,
+                                                        padding: 0
+
+                                                    })}
+                                                >
+                                                    <span style={{ fontWeight: 400 }}>
+                                                        About Owner
+                                                    </span>
                                                 </NavLink>
                                             </li>
                                         </ul>
@@ -106,8 +118,8 @@ export default function Navbars() {
                                         <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                             Galleries
                                         </a>
-                                        <ul onClick={closeMenu} style={{ position: 'absolute' }} className="dropdown-menu">
-                                            <li>
+                                        <ul style={{ position: 'absolute' }} className="dropdown-menu">
+                                            <li onClick={closeMenu}>
                                                 <NavLink
                                                     className="drop-navlink dropdown-item"
                                                     to="/gallery"
@@ -122,9 +134,9 @@ export default function Navbars() {
                                                     Manisha 1
                                                 </NavLink>
                                             </li>
-                                            <li>
+                                            <li onClick={closeMenu}>
                                                 <NavLink
-                                                    className="drop-navlink dropdown-item"
+                                                    className="drop-navlink dropdown-item manisha2"
                                                     to="/gallery2"
                                                     style={({ isActive }) => ({
                                                         backgroundColor: isActive ? 'black' : 'transparent',
@@ -133,7 +145,9 @@ export default function Navbars() {
                                                         fontSize: 16
                                                     })}
                                                 >
-                                                    Manisha 2
+                                                    <span style={{fontWeight:400}}>
+                                                        Manisha 2
+                                                    </span>
                                                 </NavLink>
                                             </li>
                                         </ul>
@@ -144,7 +158,7 @@ export default function Navbars() {
                                         <a href="/contact">Contact Us</a>
                                     </li>
                                     <li className='navbar-contact' onClick={handleNavigate}>
-                                        <Link onClick={closeMenu} style={{ display: 'flex', backgroundColor: 'black' }} href="#">
+                                        <Link style={{ display: 'flex', backgroundColor: 'black' }} href="#">
                                             <i style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                                                 <FaCalendar />
                                             </i>
