@@ -4,6 +4,7 @@ import { FaArrowRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import "./banner.css";
 import manish1Img from "../Assets/Images/Manisha1/indexManish1";
+import manish2Img from "../Assets/Images/Manisha2/IndexMansihs2";
 // import "slick-carousel/slick/slick.css";
 // import "slick-carousel/slick/slick-theme.css";
 
@@ -49,19 +50,19 @@ const CarouselBanner = () => {
   const slides = [
     {
       id: 1,
-      img: manish1Img.BAR1,
+      img: manish1Img.GATE1,
       text: "Villa For Shoot",
       text2: "A luxury space for every photo and film project",
     },
     {
       id: 2,
-      img: manish1Img.BAR1,
+      img: manish2Img.MANISHA2,
       text: "Capture Perfection at Our Villa",
       text2: "An exclusive location designed for stunning shoots",
     },
     {
       id: 3,
-      img:manish1Img.BAR1,
+      img:manish1Img.SWIM1,
       text: "Where Every Shot Finds Its Scene",
       text2: "The ideal backdrop for your creative vision",
     }

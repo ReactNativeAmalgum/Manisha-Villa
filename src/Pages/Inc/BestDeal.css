@@ -1,4 +1,124 @@
-.custom-left-col{
-    /* border: 0.1px solid #ddd; */
-    height:380px;
+.section.best-deal {
+    padding: 60px 0;
+}
+
+.section-heading {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-heading h6 {
+    font-size: 1rem;
+    color: #777;
+}
+
+.section-heading h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-wrapper {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.nav-tabs {
+    justify-content: center;
+}
+
+.nav-link {
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+}
+
+.nav-link.active {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.nav-link:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+.tabs-content {
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+}
+
+.custom-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.custom-left-col {
+    padding: 15px;
+    height: 400px;
+}
+
+.icon-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.icon-button button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    color: #007bff;
+    background: none;
+    cursor: pointer;
+}
+
+.icon-button button:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .section-heading h2 {
+        font-size: 2rem;
+    }
+
+    .icon-button button {
+        width: 100%; /* Full width on small screens */
+    }
+
+    .custom-left-col,
+    .col-lg-6 {
+        width: 100%; /* Full width for all columns */
+        margin-bottom: 20px; /* Spacing between elements */
+    }
+
+    .tab-pane {
+        padding: 10px; /* Add some padding for tab content */
+    }
+
+    img {
+        height: auto; /* Maintain aspect ratio */
+        width: 100%; /* Full width on small screens */
+    }
+}
+
+@media(max-width:769px){
+    .custom-row{
+        flex-direction: column;
+        display: flex;
+    }
+    .custom-bestdeal-col{
+        width:max-content !important;
+    }
+    .property{
+        padding-top: 50px;
+    }
+    .featured .section-heading h2 {
+        width: 100% !important;
+    }
 }
