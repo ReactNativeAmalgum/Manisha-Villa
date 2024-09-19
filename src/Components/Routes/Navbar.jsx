@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
 import Navheading from './Navheading';
 import { FaCalendar } from 'react-icons/fa';
-import logo from '../Assets/logo.jpg';
 import { useNavigate } from 'react-router';
 import './NavBar.css'
 import '../../App.css'
 import Dropdown from 'react-bootstrap/Dropdown';
 import { Link, NavLink } from 'react-router-dom';
-
+import imgs from '../../Assets/Images/Manisha1/indexManish1.js'
+import manish1Img from '../../Assets/Images/Manisha1/indexManish1.js';
+import manish2Img from '../../Assets/Images/Manisha2/IndexMansihs2.js';
 export default function Navbars() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const navigate = useNavigate();
@@ -35,7 +36,7 @@ export default function Navbars() {
                                 {/* ***** Logo Start ***** */}
                                 <a style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }} href="/" className="logo">
                                     <div style={{ width: 100, paddingBottom: 10 }}>
-                                        <img src={logo} alt="Logo" />
+                                        <img src={manish2Img.LOGO} alt="Logo" />
                                     </div>
                                 </a>
                                 {/* ***** Logo End ***** */}
@@ -51,38 +52,33 @@ export default function Navbars() {
 
 
                                         <ul style={{ position: 'absolute' }} className="dropdown-menu special-dropmenu">
-                                            <li onClick={closeMenu} className='special-li' >
+                                            <li onClick={closeMenu} className='special-li'>
                                                 <NavLink
                                                     className="drop-navlink dropdown-item special-dropmenu"
                                                     to="/about"
                                                     style={({ isActive }) => ({
-                                                        // backgroundColor: isActive ? 'black' : 'transparent',
-                                                        color: isActive ? 'white' : '#f35525',
+                                                        color: isActive ? 'black' : '#f35525',
                                                         fontWeight: 500,
                                                         fontSize: 16,
-                                                        borderRadius: 30
-
+                                                        borderRadius: 30,
                                                     })}
                                                 >
                                                     Manisha 1
                                                 </NavLink>
                                             </li>
-                                            <li onClick={closeMenu} className='special-li' >
+                                            <li onClick={closeMenu} className='special-li'>
                                                 <NavLink
                                                     className="drop-navlink dropdown-item special-li"
                                                     to="/manisha2"
                                                     style={({ isActive }) => ({
-                                                        // backgroundColor: isActive ? 'black' : 'transparent',
-                                                        color: isActive ? 'white' : '#f35525',
-
+                                                        color: isActive ? 'black' : '#f35525',
                                                         fontSize: 16,
                                                         borderRadius: 30,
                                                         paddingLeft: 15,
-                                                        
                                                     })}
                                                 >
-                                                    <span style={{fontWeight:400}}>
-                                                    Manisha 2
+                                                    <span style={{ fontWeight: 400 }}>
+                                                        Manisha 2
                                                     </span>
                                                 </NavLink>
                                             </li>
@@ -90,19 +86,16 @@ export default function Navbars() {
                                                 textAlign: 'center',
                                                 display: 'flex',
                                                 alignItems: 'center',
-
                                                 justifyContent: 'center',
-                                            }} className='special-li' >
+                                            }} className='special-li'>
                                                 <NavLink
                                                     className="drop-navlink dropdown-item aboutowner special-dropmenu"
                                                     to="/aboutowner"
                                                     style={({ isActive }) => ({
-                                                        // backgroundColor: isActive ? 'black' : 'transparent',
-                                                        color: isActive ? 'white' : '#f35525',
+                                                        color: isActive ? 'black' : '#f35525',
                                                         fontSize: 16,
                                                         borderRadius: 30,
-                                                        padding: 0
-
+                                                        padding: 0,
                                                     })}
                                                 >
                                                     <span style={{ fontWeight: 400 }}>
@@ -111,6 +104,7 @@ export default function Navbars() {
                                                 </NavLink>
                                             </li>
                                         </ul>
+
 
                                     </li>
 
@@ -145,7 +139,7 @@ export default function Navbars() {
                                                         fontSize: 16
                                                     })}
                                                 >
-                                                    <span style={{fontWeight:400}}>
+                                                    <span style={{ fontWeight: 400 }}>
                                                         Manisha 2
                                                     </span>
                                                 </NavLink>

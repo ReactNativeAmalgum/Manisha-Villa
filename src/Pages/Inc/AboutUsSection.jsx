@@ -1,6 +1,6 @@
 import React from 'react'
-import gate2 from '../../Components/Assets/gate.jpg'
 import '../../Pages/About.css'
+import manish1Img from '../../Assets/Images/Manisha1/indexManish1'
 export default function AboutUsSection() {
     return (
         <div style={{ marginBottom: '5%' }} className="single-property section">
@@ -8,7 +8,7 @@ export default function AboutUsSection() {
                 <div className="row">
                     <div className="col-lg-8">
                         <div className="main-image">
-                            <img src={gate2} alt="" />
+                            <img src={manish1Img.GATE1} alt="" />
                         </div>
                         <div className="main-content">
                             <span className="category">Bunglow</span>

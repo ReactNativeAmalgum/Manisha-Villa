@@ -1,5 +1,4 @@
 import React from 'react'
-import deal from '../../Components/Assets/best-deal.jpg'
 import { FaCalendar } from 'react-icons/fa'
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -7,6 +6,7 @@ import { Autoplay, Pagination } from 'swiper/modules';
 
 import './BestDeal.css'
 import { useNavigate } from 'react-router';
+import manish1Img from '../../Assets/Images/Manisha1/indexManish1';
 
 export default function BestDeal() {
     const navigate = useNavigate()
@@ -122,7 +122,7 @@ export default function BestDeal() {
                                                 </Swiper>
                                             </div>
                                             <div className="col-lg-6">
-                                                <img src={deal} alt="bestdeal" />
+                                                <img src={manish1Img.BAR1} alt="bestdeal" />
                                             </div>
                                             <div className="col-lg-3">
                                                 <h4>Extra Info About Property</h4>
@@ -209,7 +209,7 @@ export default function BestDeal() {
                                                 </Swiper>
                                             </div>
                                             <div className="col-lg-6">
-                                                <img src={deal} alt="bestdeal" />
+                                                <img src={manish1Img.BAR1} alt="bestdeal" />
                                             </div>
                                             <div className="col-lg-3">
                                                 <h4>Extra Info About Property</h4>

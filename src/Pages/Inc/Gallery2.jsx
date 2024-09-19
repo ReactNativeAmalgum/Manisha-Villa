@@ -79,34 +79,29 @@ function Gallery2() {
                 >
                   <span>All</span>
                 </li>
+
                 <li
-                  data-filter=".meeting"
-                  onClick={() => filterItems("jail")}
-                  className={`filter ${activeFilter === "jail" ? "active" : ""}`}
+                  data-filter=".kitchen"
+                  onClick={() => filterItems("dining")}
+                  className={`filter ${activeFilter === "dining" ? "active" : ""}`}
                 >
-                  <span>JAIL</span>
+                  <span>Dinning</span>
                 </li>
                 <li
-                  data-filter=".talking"
-                  onClick={() => filterItems("hospital")}
-                  className={`filter ${activeFilter === "hospital" ? "active" : ""}`}
+                  data-filter=".manisha"
+                  onClick={() => filterItems("manisha")}
+                  className={`filter ${activeFilter === "manisha" ? "active" : ""}`}
                 >
-                  <span>HOSPITAL</span>
-                </li>
-                <li
-                  data-filter=".conference"
-                  onClick={() => filterItems("itoffice")}
-                  className={`filter ${activeFilter === "itoffice" ? "active" : ""}`}
-                >
-                  <span>OFFICE</span>
+                  <span>MANISHA</span>
                 </li>
                 <li
                   data-filter=".events"
-                  onClick={() => filterItems("bedroom")}
-                  className={`filter ${activeFilter === "bedroom" ? "active" : ""}`}
+                  onClick={() => filterItems("kitchen")}
+                  className={`filter ${activeFilter === "kitchen" ? "active" : ""}`}
                 >
-                  <span>BEDROOMS</span>
+                  <span>KITCHEN</span>
                 </li>
+
                 <li
                   data-filter=".party"
                   onClick={() => filterItems("garden")}

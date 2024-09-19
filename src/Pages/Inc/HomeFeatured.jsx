@@ -1,6 +1,6 @@
 import React from 'react'
-import featured from '../../Components/Assets/featured.jpg'
 import { LiaFileContractSolid } from 'react-icons/lia'
+import manish1Img from '../../Assets/Images/Manisha1/indexManish1'
 export default function HomeFeatured() {
     return (
         <div className="featured section">
@@ -8,7 +8,7 @@ export default function HomeFeatured() {
                 <div className="row">
                     <div className="col-lg-4">
                         <div className="left-image">
-                            <img style={{ height: '100%', objectFit: 'cover' }} src={featured} alt="" />
+                            <img style={{ height: '100%', objectFit: 'cover' }} src={manish1Img.BAR1} alt="" />
                             <a href="property-details.html">
                                 <LiaFileContractSolid style={{ color: 'white', fontSize: 64 }} />
                             </a>

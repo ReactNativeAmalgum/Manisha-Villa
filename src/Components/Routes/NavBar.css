@@ -22,7 +22,10 @@
   justify-content: center;
   text-align: center;
 }
-
+.dropdown-item.active, .dropdown-item:active {
+  background-color: black !important;
+  color: white !important;
+}
 .dropdown-item {
   text-align: center !important;
   display: flex !important;

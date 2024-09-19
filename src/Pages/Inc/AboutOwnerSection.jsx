@@ -1,5 +1,5 @@
 import React from 'react'
-import gate2 from '../../Components/Assets/gate.jpg'
+
 import '../../Pages/About.css'
 export default function AboutOwnerSection() {
     return (

@@ -16,7 +16,8 @@ import { CgMail } from "react-icons/cg";
 import { Link,  } from "react-router-dom";
 
 import "./Footer.css";
-import logo from '../Assets/logo.jpg';
+import manish1Img from "../../Assets/Images/Manisha1/indexManish1";
+import manish2Img from "../../Assets/Images/Manisha2/IndexMansihs2";
 
 export default function Footer() {
 
@@ -32,7 +33,7 @@ export default function Footer() {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
               </p>
               <div className=" logo-cont">
-                <img src={logo} />
+                <img src={manish2Img.LOGO} />
               </div>
             </div>
             <div className="footer-nav-cont  col-2">

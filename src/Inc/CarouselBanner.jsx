@@ -3,11 +3,10 @@ import { Carousel } from "react-bootstrap";
 import { FaArrowRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import "./banner.css";
+import manish1Img from "../Assets/Images/Manisha1/indexManish1";
 // import "slick-carousel/slick/slick.css";
 // import "slick-carousel/slick/slick-theme.css";
-import banner1 from '../Components/Assets/banner1.jpg'
-import banner2 from '../Components/Assets/banner2.jpg'
-import banner3 from '../Components/Assets/banner3.jpg'
+
 
 const CarouselBanner = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -50,19 +49,19 @@ const CarouselBanner = () => {
   const slides = [
     {
       id: 1,
-      img: banner1,
+      img: manish1Img.BAR1,
       text: "Villa For Shoot",
       text2: "A luxury space for every photo and film project",
     },
     {
       id: 2,
-      img: banner2,
+      img: manish1Img.BAR1,
       text: "Capture Perfection at Our Villa",
       text2: "An exclusive location designed for stunning shoots",
     },
     {
       id: 3,
-      img: banner3,
+      img:manish1Img.BAR1,
       text: "Where Every Shot Finds Its Scene",
       text2: "The ideal backdrop for your creative vision",
     }

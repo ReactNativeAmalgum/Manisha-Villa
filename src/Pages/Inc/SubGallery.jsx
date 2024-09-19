@@ -1,35 +1,17 @@
 import React from 'react'
-import videoFrame from '../../Components/Assets/banner1.jpg'
 import '../../index.css'
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Autoplay, Navigation, Pagination } from 'swiper/modules';
-import bar from '../../Components/Assets/bar.jpg'
-import jail from '../../Components/Assets/jailbar.jpg'
-import jailoffice from '../../Components/Assets/jail office 1.jpg'
-import hosipital from '../../Components/Assets/hospital.jpg'
-import hospoffice from '../../Components/Assets/hospital office2.jpg'
-import gate from '../../Components/Assets/gate.jpg'
-import swimming from '../../Components/Assets/swimming.jpg'
-import temple from '../../Components/Assets/temple.jpg'
-import bed from '../../Components/Assets/bed1.jpg'
-import kitchen from '../../Components/Assets/kitchen.jpg'
+
 import { Image } from 'antd';
+import manish1Img from '../../Assets/Images/Manisha1/indexManish1';
 
 
 
 export default function SubGallery() {
   const images = [
-    bar,
-    jail,
-    jailoffice,
-    hosipital,
-    hospoffice,
-    gate,
-    swimming,
-    temple,
-    bed,
-    kitchen
+manish1Img.BAR1,
   ];
   return (
     <div className="video-content">
