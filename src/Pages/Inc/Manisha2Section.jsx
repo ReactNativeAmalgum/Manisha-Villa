@@ -12,7 +12,7 @@ export default function Manisha2Section() {
                         </div>
                         <div className="main-content">
                             <span className="category">Bunglow</span>
-                            <h4>Sawant Villa, Malad West Mumbai - 61</h4>
+                            <h4>Sawant Bunglow, Malad West Mumbai - 61</h4>
                             <p>
                                 Get <strong>Lorem ipsum dolor sit amet</strong> Lorem ipsum dolor sit amet{" "}
                                 <a
