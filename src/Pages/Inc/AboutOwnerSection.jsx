@@ -11,7 +11,7 @@ export default function AboutOwnerSection() {
                             <img src={'https://img.freepik.com/free-photo/young-beautiful-girl-posing-black-leather-jacket-park_1153-8104.jpg?t=st=1726318744~exp=1726322344~hmac=e000756083dbb74633272db58eddd96dc725758b97581d79f4ca30816e338dd2&w=360'} alt="" />
                         </div>
                         <div className="main-content">
-                            <h4>Manisha</h4>
+                            <h4>Manissha</h4>
                             <p>
                                 Get <strong>Lorem ipsum dolor sit amet</strong> Lorem ipsum dolor sit amet{" "}
                                 <a

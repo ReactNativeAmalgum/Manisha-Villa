@@ -40,7 +40,7 @@ function Gallery2() {
               <span className="breadcrumb">
                 <a href="#">Home</a> / Gallery
               </span>
-              <h3>Manisha 2's Gallery</h3>
+              <h3>Manissha 2's Gallery</h3>
             </div>
           </div>
         </div>
@@ -92,7 +92,7 @@ function Gallery2() {
                   onClick={() => filterItems("manisha")}
                   className={`filter ${activeFilter === "manisha" ? "active" : ""}`}
                 >
-                  <span>MANISHA</span>
+                  <span>Manissha</span>
                 </li>
                 <li
                   data-filter=".events"

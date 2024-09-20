@@ -8,7 +8,7 @@ export default function AboutUsSection() {
                 <div className="row">
                     <div className="col-lg-8">
                         <div className="main-image">
-                            <img src={manish1Img.GATE1} alt="" />
+                            <img src={manish1Img.GALLERY3} alt="" />
                         </div>
                         <div className="main-content">
                             <span className="category">Bunglow</span>

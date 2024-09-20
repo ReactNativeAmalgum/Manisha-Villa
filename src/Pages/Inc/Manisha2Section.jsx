@@ -8,7 +8,7 @@ export default function Manisha2Section() {
                 <div className="row">
                     <div className="col-lg-8">
                         <div className="main-image">
-                            <img src={manish2Img.MANISHA2} alt="" />
+                            <img src={manish2Img.LIVING3} alt="" />
                         </div>
                         <div className="main-content">
                             <span className="category">Bunglow</span>

@@ -63,7 +63,7 @@ export default function Navbars() {
                                                         borderRadius: 30,
                                                     })}
                                                 >
-                                                    Manisha 1
+                                                    Manissha 1
                                                 </NavLink>
                                             </li>
                                             <li onClick={closeMenu} className='special-li'>
@@ -78,7 +78,7 @@ export default function Navbars() {
                                                     })}
                                                 >
                                                     <span style={{ fontWeight: 400 }}>
-                                                        Manisha 2
+                                                    Manissha 2
                                                     </span>
                                                 </NavLink>
                                             </li>
@@ -125,7 +125,7 @@ export default function Navbars() {
                                                         borderRadius: 30
                                                     })}
                                                 >
-                                                    Manisha 1
+                                                    Manissha 1
                                                 </NavLink>
                                             </li>
                                             <li onClick={closeMenu}>
@@ -140,7 +140,7 @@ export default function Navbars() {
                                                     })}
                                                 >
                                                     <span style={{ fontWeight: 400 }}>
-                                                        Manisha 2
+                                                    Manissha 2
                                                     </span>
                                                 </NavLink>
                                             </li>

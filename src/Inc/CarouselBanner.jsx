@@ -72,7 +72,7 @@ const CarouselBanner = () => {
       <div className="text-box">
         <Slide direction={getSlideDirection2(currentSlide)} duration={2000} delay={500} >
           <span style={{ backgroundColor: "white", color: "black", padding: 10, fontWeight: 500 }} className="category">
-            Manisha, <span style={{ color: "#f35525" }}>Bunglow</span>
+          Manissha, <span style={{ color: "#f35525" }}>Bunglow</span>
           </span>
         </Slide>
 

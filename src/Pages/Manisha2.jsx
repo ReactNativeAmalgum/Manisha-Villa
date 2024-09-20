@@ -9,9 +9,9 @@ export default function Manisha2() {
           <div className="row">
             <div className="col-lg-12">
               <span className="breadcrumb">
-                <a href="#">Home</a> / Manisha 2
+                <a href="#">Home</a> / Manissha 2
               </span>
-              <h3>Manisha 2</h3>
+              <h3>Manissha 2</h3>
             </div>
           </div>
         </div>

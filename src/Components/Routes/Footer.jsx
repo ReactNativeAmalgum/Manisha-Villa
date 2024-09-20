@@ -91,7 +91,7 @@ export default function Footer() {
       </section>
       <section>
         <div className="copywright">
-          <p>2024 ©️ Gurucool Manissha Studio | All rights reserved | #SKDM</p>
+          <p>2024 ©️ Manissha Studio | All rights reserved | #SKDM</p>
         </div>
       </section>
     </>

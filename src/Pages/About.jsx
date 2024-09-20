@@ -9,9 +9,9 @@ export default function About() {
           <div className="row">
             <div className="col-lg-12">
               <span className="breadcrumb">
-                <a href="#">Home</a> / Manisha 1
+                <a href="#">Home</a> / Manissha 1
               </span>
-              <h3>Manisha 1</h3>
+              <h3>Manissha 1</h3>
             </div>
           </div>
         </div>
