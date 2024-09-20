@@ -5122,11 +5122,11 @@ Video Style
   width: 100%;
   height: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("https://img.freepik.com/free-photo/full-shot-students-preparing-exam_23-2149647062.jpg?t=st=1726119256~exp=1726119856~hmac=7c52a87bc0fede50e2b3ed9d787519de52693e206ffa1a3d2075342fc5c74921");
+    url('./Assets//Images/Manisha1/market.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  filter: blur(5px);
+  filter: blur(2px);
   z-index: -1;
 }
 
@@ -5565,7 +5565,7 @@ Page Header Style
   width: 100%;
   height: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-  url("./Assets//Images/Manisha1/wall1.jpg");
+  url("./Assets//Images/Manisha1/swim1.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;

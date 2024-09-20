@@ -11,10 +11,10 @@
   height: 100%;
   object-fit: cover; /* This ensures that the image covers the container */
 }
-.video-frame{
+.video-frame {
   height: 100% !important;
 }
-.ant-image .css-dev-only-do-not-override-qnu6hi{
+.ant-image .css-dev-only-do-not-override-qnu6hi {
   height: -webkit-fill-available !important;
 }
 @media (prefers-reduced-motion: no-preference) {
@@ -47,7 +47,93 @@
   }
 }
 
-
-.manisha2{
+.manisha2 {
   padding-left: 15px !important;
+}
+
+.special-heading {
+  text-align: left !important;
+}
+
+@media (max-width: 769px) {
+  .special-heading {
+    text-align: center !important;
+  }
+}
+
+@media (max-width: 1025px) {
+  .custom-row {
+    flex-direction: column;
+  }
+  .custom-col {
+    width: 100% !important;
+  }
+  .section-heading {
+    text-align: center !important;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    align-items: center;
+  }
+  .featured .section-heading h2 {
+    width: 100% !important;
+  }
+  .accordion {
+    margin-bottom: 40px !important;
+  }
+}
+/* 
+.accordion-body.special-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out, padding 0.3s ease-out;
+  padding: 0
+}
+
+.collapse.show .accordion-body.special-body {
+  max-height: 300px; 
+  padding: 20px; 
+}
+
+.accordion-body.special-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out, padding 0.3s ease-out;
+  padding: 0;
+}
+
+.collapse.show .accordion-body.special-body {
+  max-height: 600px; 
+  padding: 20px;
+} */
+.accordion-body.special-body {
+  max-height: 0; /* Initially collapsed */
+  overflow: hidden; /* Prevent overflow when collapsed */
+  transition: max-height 0.3s ease, padding 0.3s ease; /* Smooth height and padding transitions */
+  padding: 0; /* No padding when collapsed */
+}
+
+.collapse.show .accordion-body.special-body {
+  max-height: 500px; /* Adjust this value based on your content's height */
+  padding: 20px; /* Add padding when expanded */
+}
+
+.accordion-collapse {
+  position: relative; /* Ensure the accordion occupies space and pushes content below */
+  transition: all 0.3s ease; /* Smooth transition for expansion */
+}
+
+@media (max-width: 769px) {
+  .collapse.show .accordion-body.special-body {
+    flex: content;
+    max-height: 600px; /* Adjust height for smaller screens */
+    padding: 20px !important;
+  }
+}
+
+
+@media(min-width: 992px){
+  .offset-lg-4{
+    margin:0px !important;
+    width: 100% !important;
+  }
 }

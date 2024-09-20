@@ -57,8 +57,8 @@ export default function BestDeal() {
                     <div className="col-4 custom-bestdeal-col">
                         <div style={{ height: '100%', width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                             <img
-                                style={{ height: '100%', width: '100%', maxWidth: '100%' }}
-                                src={manish1Img.BAR1}
+                                style={{ height: '100%', width: '100%', maxWidth: '100%', objectFit:'cover' }}
+                                src={manish1Img.LIVINGROOM1}
                                 alt="bestdeal"
                             />
                         </div>

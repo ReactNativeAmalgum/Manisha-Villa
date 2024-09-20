@@ -37,7 +37,7 @@ import garden1 from './garden1.jpg'
 import gardern1_2 from './garden1-2.jpg'
 import garden2 from './garden2.jpg'
 import garden3 from './garden3.jpg'
-
+import manisha1_1 from './manisha1-1.jpg'
 
  const manish1Img = {
     BAR1 : bar1,
@@ -63,6 +63,7 @@ import garden3 from './garden3.jpg'
     MANDIR1: mandir1,
     MANDIR2: mandir2,
     MARKET: market,
+    MANISHA1_1:manisha1_1,
     MED1: med1,
     MED2: med2,
     OFFICE1: office1,

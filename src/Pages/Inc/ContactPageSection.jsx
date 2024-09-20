@@ -41,7 +41,7 @@ export default function ContactPageSection() {
                                         style={{ maxWidth: 52 }}
                                     />
                                     <h6>
-                                        info@villa.co
+                                        info@Bunglow.co
                                         <br />
                                         <span>Business Email</span>
                                     </h6>

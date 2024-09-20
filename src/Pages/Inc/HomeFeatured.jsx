@@ -1,100 +1,90 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { LiaFileContractSolid } from 'react-icons/lia'
 import manish1Img from '../../Assets/Images/Manisha1/indexManish1'
+import '../../App.css'
+
+const AccordionItem = ({ title, content, isOpen, onToggle }) => {
+    return (
+        <div className="accordion-item">
+            <h2 className="accordion-header">
+                <button
+                    className="accordion-button"
+                    type="button"
+                    onClick={onToggle}
+                >
+                    {title}
+                </button>
+            </h2>
+            {isOpen && (
+                <div className="accordion-body">
+                    {content}
+                </div>
+            )}
+        </div>
+    );
+};
+
+const CustomAccordion = () => {
+    const [openIndex, setOpenIndex] = useState(null);
+
+    const toggleItem = (index) => {
+        setOpenIndex(openIndex === index ? null : index);
+    };
+
+    return (
+        <div className="accordion">
+            <AccordionItem
+                title="What makes our bungalow the perfect location for your next shoot?"
+                content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                isOpen={openIndex === 0}
+                onToggle={() => toggleItem(0)}
+            />
+            <AccordionItem
+                title="How do we ensure a seamless experience for production teams?"
+                content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                isOpen={openIndex === 1}
+                onToggle={() => toggleItem(1)}
+            />
+            <AccordionItem
+                title="Why choose us for your next project?"
+                content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                isOpen={openIndex === 2}
+                onToggle={() => toggleItem(2)}
+            />
+        </div>
+    );
+};
+
 export default function HomeFeatured() {
+    const [isOpen, setIsOpen] = useState(false);
+
+    // Function to toggle the accordion state
+    const toggleAccordion = () => {
+        setIsOpen(!isOpen);
+    };
+
     return (
         <div className="featured section">
             <div className="container">
-                <div className="row">
-                    <div className="col-lg-4">
+                <div className="row custom-row">
+                    <div className="col-lg-4 custom-col">
                         <div className="left-image">
-                            <img style={{ height: '100%', objectFit: 'cover' }} src={manish1Img.BAR1} alt="" />
+                            <img style={{ height: '100%', width:'100%', objectFit:'cover', }} src={manish1Img.BUFFEE} alt="" />
                             <a href="property-details.html">
                                 <LiaFileContractSolid style={{ color: 'white', fontSize: 64 }} />
                             </a>
                         </div>
                     </div>
-                    <div className="col-lg-5">
-                        <div className="section-heading">
+                    <div className="col-lg-5 custom-col">
+                        <div className="section-heading special-heading">
                             <h6>| Why choose us</h6>
                             <h2>Best Bunglow for Shoot</h2>
                         </div>
                         <div className="accordion" id="accordionExample">
-                            <div className="accordion-item">
-                                <h2 className="accordion-header" id="headingOne">
-                                    <button
-                                        className="accordion-button"
-                                        type="button"
-                                        data-bs-toggle="collapse"
-                                        data-bs-target="#collapseOne"
-                                        aria-expanded="true"
-                                        aria-controls="collapseOne"
-                                    >
-                                        What makes our bungalow the perfect location for your next shoot?
-                                    </button>
-                                </h2>
-                                <div
-                                    id="collapseOne"
-                                    className="accordion-collapse collapse show"
-                                    aria-labelledby="headingOne"
-                                    data-bs-parent="#accordionExample"
-                                >
-                                    <div className="accordion-body">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="accordion-item">
-                                <h2 className="accordion-header" id="headingTwo">
-                                    <button
-                                        className="accordion-button collapsed"
-                                        type="button"
-                                        data-bs-toggle="collapse"
-                                        data-bs-target="#collapseTwo"
-                                        aria-expanded="false"
-                                        aria-controls="collapseTwo"
-                                    >
-                                        How do we ensure a seamless experience for production teams?
-                                    </button>
-                                </h2>
-                                <div
-                                    id="collapseTwo"
-                                    className="accordion-collapse collapse"
-                                    aria-labelledby="headingTwo"
-                                    data-bs-parent="#accordionExample"
-                                >
-                                    <div className="accordion-body">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="accordion-item">
-                                <h2 className="accordion-header" id="headingThree">
-                                    <button
-                                        className="accordion-button collapsed"
-                                        type="button"
-                                        data-bs-toggle="collapse"
-                                        data-bs-target="#collapseThree"
-                                        aria-expanded="false"
-                                        aria-controls="collapseThree"
-                                    >
-                                        Why choose us for your next project?
-                                    </button>
-                                </h2>
-                                <div
-                                    id="collapseThree"
-                                    className="accordion-collapse collapse"
-                                    aria-labelledby="headingThree"
-                                    data-bs-parent="#accordionExample"
-                                >
-                                    <div className="accordion-body">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequats
-                                    </div>
-                                </div>
-                            </div>
+                         <CustomAccordion />
                         </div>
                     </div>
-                    <div className="col-lg-3">
+                    <div className="col-lg-3 custom-col">
                         <div className="info-table">
                             <ul>
                                 <li>
