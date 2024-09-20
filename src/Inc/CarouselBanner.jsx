@@ -3,15 +3,16 @@ import { Carousel } from "react-bootstrap";
 import "./banner.css";
 import manish1Img from "../Assets/Images/Manisha1/indexManish1";
 import { Fade, Slide } from "react-awesome-reveal";
-import Navbar from '../Components/Routes/Navbar'
+import Navbar from '../Components/Routes/Navbar';
+
 const CarouselBanner = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const settings = {
-    interval: 3000, // This replaces `autoplaySpeed` from react-slick
-    pause: "hover", // Pause on hover
-    controls: true, // Show controls if needed
-    indicators: true, // Show indicators if needed
+    interval: 3000,
+    pause: "hover",
+    controls: true,
+    indicators: true,
   };
 
   const slides = [
@@ -35,21 +36,24 @@ const CarouselBanner = () => {
     },
   ];
 
-  // Conditional slide direction based on currentSlide
   const getSlideDirection = (slideIndex) => {
     if (slideIndex === 0) return "left";
     if (slideIndex === 1) return "up";
     if (slideIndex === 2) return "right";
   };
 
-  const getSlideDirection2 = (slideIndex) =>{
-    if(slideIndex === 0) return "right";
-    if(slideIndex === 1) return "down"
-    if(slideIndex === 2) return "left"
-  }
+  const getSlideDirection2 = (slideIndex) => {
+    if (slideIndex === 0) return "right";
+    if (slideIndex === 1) return "down";
+    if (slideIndex === 2) return "left";
+  };
 
   return (
-    <div style={{ paddingLeft: 0, paddingRight: 0, borderRadius: 0 }} className="carousel-container">
+    <div className="carousel-container">
+      <div style={{position:'absolute', width:'100%'}}>
+      <Navbar />
+      </div>
+
       <Carousel
         data-bs-theme="dark"
         onSelect={(selectedIndex) => setCurrentSlide(selectedIndex)}
@@ -61,28 +65,28 @@ const CarouselBanner = () => {
         {slides.map((slide) => (
           <Carousel.Item key={slide.id}>
             <img
-              style={{ paddingLeft: 0, paddingRight: 0, borderRadius: 0 }}
               className="d-block w-100 slider-img"
               src={slide.img}
               alt={`Slide ${slide.id}`}
             />
+            
+            <div className="carousel-overlay" />
           </Carousel.Item>
         ))}
       </Carousel>
       <div className="text-box">
-        <Slide direction={getSlideDirection2(currentSlide)} duration={2000} delay={500} >
+      
+        <Slide direction={getSlideDirection2(currentSlide)} duration={2000} delay={500}>
           <span style={{ backgroundColor: "white", color: "black", padding: 10, fontWeight: 500 }} className="category">
-          Manissha, <span style={{ color: "#f35525" }}>Bunglow</span>
+            Manissha, <span style={{ color: "#f35525" }}>Bunglow</span>
           </span>
         </Slide>
 
-        {/* Slide-in animation based on the current slide */}
         <Slide direction={getSlideDirection(currentSlide)} duration={2000} delay={500}>
           <h3 className="txt-h3">{slides[currentSlide].text}</h3>
         </Slide>
       </div>
     </div>
-    
   );
 };
 

@@ -7,8 +7,6 @@
   display: block !important;
 }
 
-
-
 .nav-link {
   display: flex !important;
   align-items: center !important;
@@ -55,6 +53,19 @@ dropdown-menu.show {
 }
 .dropdown-menu .drop-navlink {
   font-weight: 400 !important;
+}
+.header-area {
+  position: relative; /* Important for overlay */
+  z-index: 10; /* Higher than carousel items */
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+}
+
+.nav {
+  display: none !important;
+}
+
+.nav.open {
+  display: flex !important; /* Change to flex for better alignment */
 }
 /* For larger screens */
 @media (min-width: 769px) {

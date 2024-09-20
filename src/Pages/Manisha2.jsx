@@ -1,9 +1,13 @@
 import React from 'react'
 import Manisha2Section from './Inc/Manisha2Section'
+import Navbars from '../Components/Routes/Navbar'
 
 export default function Manisha2() {
   return (
     <>
+    <div style={{backgroundColor:'rgba(0,0,0,0.8)',}}>
+    <Navbars />
+    </div>
       <div className="page-heading header-text" style={{ marginTop: '1%' }}>
         <div className="container">
           <div className="row">

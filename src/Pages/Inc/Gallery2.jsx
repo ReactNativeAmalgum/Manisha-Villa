@@ -2,6 +2,7 @@ import React, { useLayoutEffect, useState } from "react";
 import { Image } from "antd";
 import '../GalleryPage.css'
 import { WorkTab2 } from "../../Inc/Worktab";
+import Navbars from "../../Components/Routes/Navbar";
 function Gallery2() {
   const [items, setItems] = useState([]);
   const [activeFilter, setActiveFilter] = useState("All");
@@ -33,7 +34,10 @@ function Gallery2() {
 
   return (
     <>
-      <div className="page-heading header-text" style={{ marginTop: '1%',}}>
+    <div style={{backgroundColor:'rgba(0,0,0,0.8)',}}>
+    <Navbars />
+    </div>
+      <div className="page-heading header-text" style={{marginTop:'1%'}} >
         <div className="container">
           <div className="row">
             <div className="col-lg-12">

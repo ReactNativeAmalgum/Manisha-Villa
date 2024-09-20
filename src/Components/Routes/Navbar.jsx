@@ -27,12 +27,12 @@ export default function Navbars() {
     }
     return (
         <>
-            <Navheading />
-            <header className="header-area header-sticky">
+            {/* <Navheading /> */}
+            <header style={{backgroundColor:'transparent'}} className="header-area header-sticky">
                 <div className="container">
                     <div className="row">
                         <div className="col-12">
-                            <nav className="main-nav">
+                            <nav style={{backgroundColor:'transparent'}} className="main-nav">
                                 {/* ***** Logo Start ***** */}
                                 <a style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }} href="/" className="logo">
                                     <div style={{ width: 100, paddingBottom: 10 }}>
@@ -57,7 +57,7 @@ export default function Navbars() {
                                                     className="drop-navlink dropdown-item special-dropmenu"
                                                     to="/about"
                                                     style={({ isActive }) => ({
-                                                        color: isActive ? 'black' : '#f35525',
+                                                        color: isActive ? 'white' : '#f35525',
                                                         fontWeight: 500,
                                                         fontSize: 16,
                                                         borderRadius: 30,
@@ -71,7 +71,7 @@ export default function Navbars() {
                                                     className="drop-navlink dropdown-item special-li"
                                                     to="/manisha2"
                                                     style={({ isActive }) => ({
-                                                        color: isActive ? 'black' : '#f35525',
+                                                        color: isActive ? 'white' : '#f35525',
                                                         fontSize: 16,
                                                         borderRadius: 30,
                                                         paddingLeft: 15,
@@ -92,7 +92,7 @@ export default function Navbars() {
                                                     className="drop-navlink dropdown-item aboutowner special-dropmenu"
                                                     to="/aboutowner"
                                                     style={({ isActive }) => ({
-                                                        color: isActive ? 'black' : '#f35525',
+                                                        color: isActive ? 'white' : '#f35525',
                                                         fontSize: 16,
                                                         borderRadius: 30,
                                                         padding: 0,
@@ -118,7 +118,7 @@ export default function Navbars() {
                                                     className="drop-navlink dropdown-item"
                                                     to="/gallery"
                                                     style={({ isActive }) => ({
-                                                        backgroundColor: isActive ? 'black' : 'transparent',
+                                                        backgroundColor: isActive ? 'white' : 'transparent',
                                                         color: isActive ? 'white' : '#f35525',
                                                         fontWeight: 500,
                                                         fontSize: 16,
@@ -133,7 +133,7 @@ export default function Navbars() {
                                                     className="drop-navlink dropdown-item manisha2"
                                                     to="/gallery2"
                                                     style={({ isActive }) => ({
-                                                        backgroundColor: isActive ? 'black' : 'transparent',
+                                                        backgroundColor: isActive ? 'white' : 'transparent',
                                                         color: isActive ? 'white' : '#f35525',
                                                         fontWeight: 500,
                                                         fontSize: 16

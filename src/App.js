@@ -12,7 +12,7 @@ import Gallery2 from "./Pages/Inc/Gallery2";
 function App() {
   return (
     <Router>
-    <Navbar />
+    {/* <Navbar /> */}
       <>
         <Routes>
           <Route path="/" element={<Home />} />

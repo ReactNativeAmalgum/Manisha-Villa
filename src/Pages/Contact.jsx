@@ -1,10 +1,14 @@
 import React from 'react'
 import ContactPageSection from './Inc/ContactPageSection'
+import Navbars from '../Components/Routes/Navbar'
 
 export default function Contact() {
   return (
     <>
-      <div className="page-heading header-text" style={{marginTop:'1%'}}>
+      <div style={{ backgroundColor: 'rgba(0,0,0,0.8)', }}>
+        <Navbars />
+      </div>
+      <div className="page-heading header-text" style={{marginTop:'1%'}} >
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
@@ -16,7 +20,7 @@ export default function Contact() {
           </div>
         </div>
       </div>
-    <ContactPageSection />
+      <ContactPageSection />
     </>
   )
 }
