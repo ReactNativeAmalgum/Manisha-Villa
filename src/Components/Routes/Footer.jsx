@@ -83,7 +83,7 @@ export default function Footer() {
               </div>
               <div className="social">
                 <FaMapPin className="icon" />{" "}
-                <p>Sawant villa, plot no. 45/53, <br /> Opposite Mantra Residency, Yog Ashram, <br /> Mahd Marve, Malad West, Mumbai 4000 061 </p>
+                <p>Sawant Bunglow, plot no. 45/53, <br /> Opposite Mantra Residency, Yog Ashram, <br /> Mahd Marve, Malad West, Mumbai 4000 061 </p>
               </div>
             </div>
           </div>
