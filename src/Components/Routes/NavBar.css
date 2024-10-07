@@ -1,10 +1,10 @@
 /* Default Nav hidden by default, opened via menu-trigger */
 .nav {
-  display: none !important;
+  display: none !important; /* Keep navigation hidden by default */
 }
 
 .nav.open {
-  display: block !important;
+  display: flex !important; /* Change to flex for better alignment */
 }
 
 .nav-link {
@@ -20,113 +20,112 @@
   justify-content: center;
   text-align: center;
 }
-.dropdown-item.active, .dropdown-item:active {
-  background-color: black !important;
-  color: white !important;
+
+.dropdown-item.active,
+.dropdown-item:active {
+  /* background-color: black !important;  */
+  color: white !important; /* Active item text color */
 }
+
 .dropdown-item {
   text-align: center !important;
   display: flex !important;
   align-items: center !important;
-
   justify-content: center !important;
 }
 
 /* Menu trigger visible only for small screens */
 .menu-trigger {
-  display: block !important;
-  cursor: pointer !important;
+  display: block !important; /* Menu trigger displayed on small screens */
+  cursor: pointer !important; /* Pointer cursor for interactivity */
 }
 
 .dropdown-menu {
-  display: none; 
-  position: absolute; 
-  width: 100%; 
-  top: 100%; 
+  display: none; /* Hide dropdown by default */
+  position: absolute; /* Position dropdown absolutely */
+  width: 100%; /* Full width for dropdown */
+  top: 100%; /* Position below the menu */
   left: 0;
-  z-index: 1000; 
-  background-color: white;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  z-index: 1000; /* Ensure dropdown is above other elements */
+  background-color: white; /* Dropdown background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Dropdown shadow */
 }
-dropdown-menu.show {
+
+.dropdown-menu.show {
   display: block; /* Show when needed */
 }
+
 .dropdown-menu .drop-navlink {
-  font-weight: 400 !important;
+  font-weight: 400 !important; /* Font weight for nav links */
 }
+
 .header-area {
   position: relative; /* Important for overlay */
   z-index: 10; /* Higher than carousel items */
   background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
 }
 
-.nav {
-  display: none !important;
-}
-
-.nav.open {
-  display: flex !important; /* Change to flex for better alignment */
-}
 /* For larger screens */
 @media (min-width: 769px) {
   .nav {
-    display: flex !important;
+    display: flex !important; /* Show nav on larger screens */
   }
   .menu-trigger {
-    display: none !important;
+    display: none !important; /* Hide menu trigger on larger screens */
   }
-
-  
 }
 
 /* For screens below 768px */
 @media (max-width: 768px) {
   /* Dropdown centered and responsive */
   .dropdown {
-    justify-content: center !important;
-    display: flex !important;
+    justify-content: center !important; /* Center dropdown items */
+    display: flex !important; /* Flexbox layout for dropdown */
     align-items: center !important;
     text-align: center !important;
-    width: 100%;
+    width: 100%; /* Full width for dropdown */
   }
-.nav li{
-  display: flex;
-  justify-content: center !important;
-}
+
+  .nav li {
+    display: flex; /* Flex layout for nav items */
+    justify-content: center !important; /* Center nav items */
+  }
+
   .show {
-    display: flex !important;
-    position: absolute;
-    justify-content: center !important;
-    /* top:0px !important; */
-    flex-direction: row;
-    /* flex-wrap: wrap; */
+    display: flex !important; /* Show dropdown as flex */
+    position: absolute; /* Position dropdown absolutely */
+    justify-content: center !important; /* Center items in dropdown */
+    flex-direction: row; /* Row layout for dropdown items */
   }
-  
+
   /* Increase spacing and make touch-friendly */
   .dropdown-menu .dropdown-item {
-    padding: 5px 20px !important;
-    
+    padding: 5px 20px !important; /* Padding for dropdown items */
     font-size: 18px; /* Larger font for readability */
-    margin: 10px 0;
+    margin: 10px 0; /* Margin for spacing */
     width: 100%; /* Ensure full width for dropdown items */
-    height: 100% !important;
-    text-align: center; /* Center text */
+    height: 100% !important; /* Full height for dropdown items */
+    text-align: center; /* Center text in dropdown */
   }
+
   .drop-navlink {
-    font-weight: 400 !important;
+    font-weight: 400 !important; /* Font weight for nav links */
   }
+
   .dropdown-menu .drop-navlink {
-    font-weight: 400 !important;
+    font-weight: 400 !important; /* Font weight for dropdown links */
   }
-  .dropdown-menu .special-li{
-    padding:0px !important
+
+  .dropdown-menu .special-li {
+    padding: 0px !important; /* Reset padding for special items */
   }
-  .main-nav  .open {
-    display: flex ;
-    justify-content: center !important;
+
+  .main-nav.open {
+    display: flex; /* Show main nav when opened */
+    justify-content: center !important; /* Center main nav items */
   }
 }
 
-.special-li span{
-  font-weight: 400 !important;
+.special-li span {
+  font-weight: 400 !important; /* Font weight for special li items */
 }

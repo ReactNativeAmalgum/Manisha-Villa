@@ -28,11 +28,11 @@ export default function Navbars() {
     return (
         <>
             {/* <Navheading /> */}
-            <header style={{backgroundColor:'transparent'}} className="header-area header-sticky">
+            <header style={{ backgroundColor: 'transparent' }} className="header-area header-sticky">
                 <div className="container">
                     <div className="row">
                         <div className="col-12">
-                            <nav style={{backgroundColor:'transparent'}} className="main-nav">
+                            <nav style={{ backgroundColor: 'transparent' }} className="main-nav">
                                 {/* ***** Logo Start ***** */}
                                 <a style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }} href="/" className="logo">
                                     <div style={{ width: 100, paddingBottom: 10 }}>
@@ -51,16 +51,17 @@ export default function Navbars() {
                                         </a>
 
 
-                                        <ul style={{ position: 'absolute',  }} className="dropdown-menu special-dropmenu">
+                                        <ul style={{ position: 'absolute' }} className="dropdown-menu special-dropmenu">
                                             <li onClick={closeMenu} className='special-li'>
                                                 <NavLink
                                                     className="drop-navlink dropdown-item special-dropmenu"
                                                     to="/about"
                                                     style={({ isActive }) => ({
-                                                        color: isActive ? 'white' : '#f35525',
+                                                        // color: isActive ? 'white' : '#f35525',
                                                         fontWeight: 500,
                                                         fontSize: 16,
                                                         borderRadius: 30,
+                                                        // backgroundColor: isActive ? 'black' : 'orange',
                                                     })}
                                                 >
                                                     Manissha 1
@@ -68,22 +69,24 @@ export default function Navbars() {
                                             </li>
                                             <li onClick={closeMenu} className='special-li'>
                                                 <NavLink
-                                                    className="drop-navlink dropdown-item special-li"
+                                                    className="drop-navlink dropdown-item special-dropmenu"
                                                     to="/manisha2"
                                                     style={({ isActive }) => ({
-                                                        color: isActive ? 'white' : '#f35525',
+                                                        // color: isActive ? 'white' : '#f35525', 
                                                         fontSize: 16,
                                                         borderRadius: 30,
                                                         paddingLeft: 15,
+                                                        // backgroundColor: isActive ? 'black' : 'orange', 
                                                     })}
                                                 >
                                                     <span style={{ fontWeight: 400 }}>
-                                                    Manissha 2
+                                                        Manissha 2
                                                     </span>
                                                 </NavLink>
-                                            </li>
 
+                                            </li>
                                         </ul>
+
 
 
                                     </li>
@@ -120,7 +123,7 @@ export default function Navbars() {
                                                     })}
                                                 >
                                                     <span style={{ fontWeight: 400 }}>
-                                                    Manissha 2
+                                                        Manissha 2
                                                     </span>
                                                 </NavLink>
                                             </li>
