@@ -13,7 +13,7 @@ import {
 } from "react-icons/fa";
 import { CgMail } from "react-icons/cg";
 
-import { Link,  } from "react-router-dom";
+import { Link, } from "react-router-dom";
 
 import "./Footer.css";
 import manish1Img from "../../Assets/Images/Manisha1/indexManish1";
@@ -30,7 +30,7 @@ export default function Footer() {
             <div className="footer-col-6">
               <h3 style={{ paddingTop: 5 }}>Abouts</h3>
               <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                At Manisha Bungalow, we offer exceptional filming locations with diverse settings and top-notch amenities. Whether for a film shoot or a private event, our properties provide the perfect backdrop for your creative vision.
               </p>
               <div className=" logo-cont">
                 <img src={manish2Img.LOGO} />
@@ -39,22 +39,22 @@ export default function Footer() {
             <div className="footer-nav-cont  col-2">
               <h3>General</h3>
               <p>
-                <Link className="footer-nav-cont-p" to="/">
+                <Link onClick={() => window.scrollTo(0, 0)} className="footer-nav-cont-p" to="/">
                   Home
                 </Link>
               </p>
               <p>
-                <Link className="footer-nav-cont-p" to="/about">
+                <Link onClick={() => window.scrollTo(0, 0)} className="footer-nav-cont-p" to="/about">
                   About
                 </Link>
               </p>
               <p>
-                <Link className="footer-nav-cont-p" to="/gallery">
+                <Link onClick={() => window.scrollTo(0, 0)} className="footer-nav-cont-p" to="/gallery">
                   Gallery
                 </Link>
               </p>
               <p>
-                <Link className="footer-nav-cont-p" to="/contact">
+                <Link onClick={() => window.scrollTo(0, 0)} className="footer-nav-cont-p" to="/contact">
                   Contact Us
                 </Link>
               </p>
@@ -79,11 +79,18 @@ export default function Footer() {
                 <CgMail className="icon" /> <p>demo@gmail.com</p>
               </div>
               <div className="social">
-                <FaPhone className="icon" /> <p>+91- 9819752405 / 9930434144 / 9820212609</p>
+                <FaPhone className="icon" /> <p>+91- 919819752405 / +919930434144</p>
               </div>
               <div className="social">
                 <FaMapPin className="icon" />{" "}
-                <p>Sawant Bunglow, plot no. 45/53, <br /> Opposite Mantra Residency, Yog Ashram, <br /> Mahd Marve, Malad West, Mumbai 4000 061 </p>
+                <p>MANISSHA BUNGALOW
+                  109, <br /> Master Wadi.
+                  Main Road.<br />
+                  Opposite Bus Stop
+                  Near Hotel Retreat <br />
+                  Madh Marve Road. <br />
+                  Malad west.<br />
+                  Mumbai 400 061</p>
               </div>
             </div>
           </div>

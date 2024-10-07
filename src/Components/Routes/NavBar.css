@@ -121,6 +121,10 @@ dropdown-menu.show {
   .dropdown-menu .special-li{
     padding:0px !important
   }
+  .main-nav  .open {
+    display: flex ;
+    justify-content: center !important;
+  }
 }
 
 .special-li span{

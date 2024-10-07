@@ -1,14 +1,12 @@
-import React from 'react'
-import '../../index.css'
+import React from 'react';
+import '../../index.css';
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Autoplay, Navigation, Pagination } from 'swiper/modules';
-
 import { Image } from 'antd';
 import manish1Img from '../../Assets/Images/Manisha1/indexManish1';
 import manish2Img from '../../Assets/Images/Manisha2/IndexMansihs2';
-import '../../App.css'
-
+import '../../App.css';
 
 export default function SubGallery() {
   const images = [
@@ -27,8 +25,8 @@ export default function SubGallery() {
     manish2Img.KITCHEN1,
     manish2Img.REST,
     manish1Img.MARKET
-
   ];
+
   return (
     <div className="video-content">
       <div className="container">
@@ -38,22 +36,25 @@ export default function SubGallery() {
               <Swiper
                 style={{ backgroundColor: 'transparent' }}
                 spaceBetween={10}
-                slidesPerView={1} // Default to 2 slides
+                slidesPerView={1} // Default to 1 slide
                 pagination={{
                   clickable: true,
                 }}
                 navigation={true}
                 modules={[Autoplay, Pagination, Navigation]}
+                autoplay={{
+                  delay: 2000, // Time in milliseconds between slides
+                  disableOnInteraction: false, // Autoplay will not be disabled after user interactions
+                }}
                 breakpoints={{
-                  // When the screen width is <= 768px
                   768: {
-                    slidesPerView: 2, // Show 1 slide
+                    slidesPerView: 2, // Show 2 slides on screens wider than 768px
                   },
-                  1024:{
-                    slidesPerView: 2
+                  1024: {
+                    slidesPerView: 2,
                   },
-                  1440:{
-                    slidesPerView:2
+                  1440: {
+                    slidesPerView: 2,
                   }
                 }}
               >
@@ -71,13 +72,9 @@ export default function SubGallery() {
                 ))}
               </Swiper>
             </div>
-
-
-
           </div>
         </div>
       </div>
     </div>
-
-  )
+  );
 }

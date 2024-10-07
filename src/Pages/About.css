@@ -33,3 +33,58 @@
     font-size: 0.875rem; /* Slightly reduce font size on smaller screens */
   }
 }
+
+.mansiha1-swiper-cont{
+  height: 300px;
+}
+
+
+/* Container for the Swiper slider */
+.manisha1-swiper-cont {
+  width: 100%;
+  height: 400px;
+  overflow: hidden; /* Make sure content doesn’t overflow */
+  position: relative;
+}
+
+/* Ensure Swiper takes full width and height of the parent container */
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+/* Swiper slide styling */
+.manisha1-swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%; /* Full height for the slide */
+}
+
+/* List styling inside Swiper slide */
+.manisha1-swiper-slide ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.manisha1-swiper-slide li {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.manisha1-swiper-slide li span {
+  font-weight: bold;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .manisha1-swiper-cont {
+    height: 300px; /* Adjust height on smaller screens */
+  }
+
+  .manisha1-swiper-slide li {
+    font-size: 0.875rem;
+  }
+}

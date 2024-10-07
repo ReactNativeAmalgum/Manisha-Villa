@@ -68,15 +68,9 @@ export default function BestDeal() {
                     <div className="col-4 custom-bestdeal-col property">
                         <h4>Extra Info About Property</h4>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                            do eiusmod tempor pack incididunt ut labore et dolore
-                            magna aliqua quised ipsum suspendisse.
-                            <br />
-                            <br />
-                            When you need free CSS templates, you can simply type
-                            TemplateMo in any search engine website. In addition, you
-                            can type TemplateMo Portfolio, TemplateMo One Page
-                            Layouts, etc.
+                        Manisha Bungalow is thoughtfully crafted to accommodate both film shoots and various events, offering adaptable spaces that can be tailored to your specific requirements. With features like a tranquil garden, expansive halls, and modern amenities, the venue creates an inviting setting that fosters creativity and teamwork. Our attentive staff is always available to assist, ensuring that every aspect of your experience runs smoothly and efficiently.
+                          
+                          
                         </p>
                         <div className="icon-button">
                             <a style={{ display: 'flex', width: 200 }} href="/contact">

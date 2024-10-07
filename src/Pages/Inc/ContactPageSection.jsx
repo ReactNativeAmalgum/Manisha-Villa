@@ -27,7 +27,7 @@ export default function ContactPageSection() {
                                         style={{ maxWidth: 52 }}
                                     />
                                     <h6>
-                                    +91- 9819752405 / 9930434144 / 9820212609
+                                    +91- 9819752405 / 9930434144
                                         <br />
                                         <span>Phone Number</span>
                                     </h6>
@@ -119,8 +119,8 @@ export default function ContactPageSection() {
                         <div id="map">
 
                             <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3768.2201845658815!2d72.838876!3d19.185582999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTnCsDExJzA4LjEiTiA3MsKwNTAnMjAuMCJF!5e0!3m2!1sen!2sin!4v1726298508900!5m2!1sen!2sin"
-                                width="100%"
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.9891097780783!2d72.78808907520724!3d19.15195398206832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b5c491f1f1b9%3A0xcb525ce5ba66b0f3!2sMaster%20Wadi!5e0!3m2!1sen!2sin!4v1728296197574!5m2!1sen!2sin"
+  width="100%"
                                 height="500px"
                                 style={{
                                     border: 0,

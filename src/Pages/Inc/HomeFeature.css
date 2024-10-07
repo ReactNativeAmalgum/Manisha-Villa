@@ -1,0 +1,17 @@
+.homeFeatureBtn{
+    background-color: #f35525;
+    border: 0px;
+    border-radius: 10px;
+    padding:20px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    width: 150px;
+}
+.btn-homefeature-cont{
+    /* background-color: pink; */
+    display: flex;
+    justify-content:flex-end;
+    gap: 20px;
+    padding-bottom: 30px;
+}

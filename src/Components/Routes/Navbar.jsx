@@ -51,7 +51,7 @@ export default function Navbars() {
                                         </a>
 
 
-                                        <ul style={{ position: 'absolute' }} className="dropdown-menu special-dropmenu">
+                                        <ul style={{ position: 'absolute',  }} className="dropdown-menu special-dropmenu">
                                             <li onClick={closeMenu} className='special-li'>
                                                 <NavLink
                                                     className="drop-navlink dropdown-item special-dropmenu"
@@ -82,27 +82,7 @@ export default function Navbars() {
                                                     </span>
                                                 </NavLink>
                                             </li>
-                                            <li onClick={closeMenu} style={{
-                                                textAlign: 'center',
-                                                display: 'flex',
-                                                alignItems: 'center',
-                                                justifyContent: 'center',
-                                            }} className='special-li'>
-                                                <NavLink
-                                                    className="drop-navlink dropdown-item aboutowner special-dropmenu"
-                                                    to="/aboutowner"
-                                                    style={({ isActive }) => ({
-                                                        color: isActive ? 'white' : '#f35525',
-                                                        fontSize: 16,
-                                                        borderRadius: 30,
-                                                        padding: 0,
-                                                    })}
-                                                >
-                                                    <span style={{ fontWeight: 400 }}>
-                                                        About Owner
-                                                    </span>
-                                                </NavLink>
-                                            </li>
+
                                         </ul>
 
 

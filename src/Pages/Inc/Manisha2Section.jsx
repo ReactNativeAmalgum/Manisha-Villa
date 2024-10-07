@@ -12,55 +12,41 @@ export default function Manisha2Section() {
                         </div>
                         <div className="main-content">
                             <span className="category">Bunglow</span>
-                            <h4>Sawant Bunglow, Malad West Mumbai - 61</h4>
+                            <h4>
+                                Manisha 2 – The Perfect Venue for Memorable Parties</h4>
                             <p>
-                                Get <strong>Lorem ipsum dolor sit amet</strong> Lorem ipsum dolor sit amet{" "}
-                                <a
-                                    href="https://www.google.com/search?q=best+free+css+templates"
-                                    target="_blank"
-                                >
-                                    best free CSS templates
-                                </a>{" "}
-                                in the world. Please tell your friends about it. Thank you. Cloud
-                                bread kogi bitters pitchfork shoreditch tumblr yr succulents
-                                single-origin coffee schlitz enamel pin you probably haven't heard
-                                of them ugh hella.
+                                Manisha 2 offers a <strong>luxurious</strong> and <strong>spacious</strong> setting, making it the perfect destination for hosting unforgettable events. Whether it's a lively <strong>night party</strong> or an elegant <strong>daytime gathering</strong>, this villa provides a unique blend of style and comfort. The beautifully designed interiors and ample outdoor space offer the perfect backdrop for any occasion, allowing you to create <strong>memorable experiences</strong> for your guests. With flexible arrangements and top-notch amenities, Manisha 2 ensures that your event goes off without a hitch, offering an inviting atmosphere for celebrations of all sizes.                                <br />
                                 <br />
-                                <br />
-                                When you look for free CSS templates, you can simply type TemplateMo
-                                in any search engine website. In addition, you can type TemplateMo
-                                Digital Marketing, TemplateMo Corporate Layouts, etc. Master cleanse
-                                +1 intelligentsia swag post-ironic, slow-carb chambray knausgaard
-                                PBR&amp;B DSA poutine neutra cardigan hoodie pop-up.
+                                At Manisha 2, you can enjoy a <strong>sophisticated</strong> yet <strong>relaxed environment</strong>, designed specifically for hosting the perfect party. The villa's modern aesthetics and spacious layout make it ideal for events that require both <strong>elegance</strong> and <strong>functionality</strong>. Whether you're organizing a night party under the stars or a vibrant daytime event, Manisha 2 offers versatile spaces that can be tailored to your specific needs. The property’s expansive rooms and thoughtful amenities ensure that your guests will feel comfortable and well-cared for, creating the perfect setting for a <strong>successful celebration</strong>.
                             </p>
                         </div>
-                        <h4>Note*</h4>
+                        <h4>Terms*</h4>
 
                         <div className='main-content'>
                             <ul>
                                 <li>
-                                    For Unlimited Soft Drinks, Tea, coffee, Wate, Moctails, & Popcorn just at <b>Rs.45000/-</b>
+                                    Night party offer <strong>Rs 10,000/-</strong> Villa rent. Food ALA carte
                                 </li>
                                 <li>
-                                    Per Person For Buffet <b>2 Breakfast</b> & <b>1 Lunch</b> just at <b>Rs.300/-</b>
+                                    Day party offer<strong>Rs 15,000/-</strong> Food ALA carte
+                                </li>
+                                <li>
 
+                                    Day / Night party offer  <strong>Rs 20,000/-</strong> villa rent. Food ALA carte
                                 </li>
                                 <li>
-                                    Per Day For Gypspy / Qualis <b>without</b> Driver & Diesel just at <b>Rs. 2000/-</b>
+                                    <strong>50%</strong> Advance during booking
                                 </li>
                                 <li>
-                                    Electricity Load 25KW - <b>Rs.20/per unit</b>.
+                                    Balance amount to be paid during entery
                                 </li>
                                 <li>
-                                    Booking Advance <b>Rs.10,000/- Non Refundable Of Cancelled</b>.
+                                    GST as applicable
                                 </li>
                                 <li>
-                                    Per Day For Setting / Dismantle, <b>Staff</b> Changres <b>Rs.1500</b>/-
+                                    No swimming pool
+                                </li>
 
-                                </li>
-                                <li>
-                                    Parking Available - YES Vanity Parking <b>Rs.2500/-</b>
-                                </li>
                             </ul>
                         </div>
                         <h4>Account Details</h4>
@@ -75,13 +61,13 @@ export default function Manisha2Section() {
 
                                 </li>
                                 <li>
-                                   PAN NO- <b>AABPB3447P</b> 
+                                    PAN NO- <b>AABPB3447P</b>
                                 </li>
                                 <li>
                                     BANK DETAILS- <b>GURUCOOL MANISSHA STUDIO, HDFC BANK LTD</b>.
                                 </li>
                                 <li>
-                                    KHAR WEST, MUMBAI-4000 052 
+                                    KHAR WEST, MUMBAI-4000 052
                                 </li>
                                 <li>
                                     ACCOUNT NO- <b>50200088586644</b>,
@@ -91,7 +77,7 @@ export default function Manisha2Section() {
                                     IFSC CODE- <b>HDFC0000490</b>
                                 </li>
                                 <li>
-                                    GPAY NUMBER- <b>+91 8657036566</b>
+                                    BOOKING CONTACR- ARVIND PATEL- (<b>+91 8657036566</b>)
                                 </li>
                             </ul>
                         </div>
@@ -106,7 +92,7 @@ export default function Manisha2Section() {
                                         aria-expanded="true"
                                         aria-controls="collapseOne"
                                     >
-                                        Premier Bungalow for Unforgettable Shoots
+                                        What types of events can be hosted at Manish
                                     </button>
                                 </h2>
                                 <div
@@ -116,13 +102,7 @@ export default function Manisha2Section() {
                                     data-bs-parent="#accordionExample"
                                 >
                                     <div className="accordion-body">
-                                        Dolor <strong>almesit amet</strong>, consectetur adipiscing
-                                        elit, sed doesn't eiusmod tempor kinfolk tonx seitan crucifix 3
-                                        wolf moon bicycle rights keffiyeh snackwave wolf same vice,
-                                        chillwave vexillologist incididunt ut labore consectetur{" "}
-                                        <code>adipiscing</code> elit, sed do eiusmod tempor incididunt
-                                        ut labore et dolore magna aliqua.
-                                    </div>
+                                    Manisha 2 is an ideal venue for a variety of events, including <strong>night parties</strong>, <strong>daytime gatherings</strong>, birthday celebrations, corporate events, and more. The villa’s versatile spaces can accommodate both <strong>formal</strong> and <strong>casual events</strong>, making it perfect for any occasion.                                    </div>
                                 </div>
                             </div>
                             <div className="accordion-item">
@@ -135,7 +115,7 @@ export default function Manisha2Section() {
                                         aria-expanded="false"
                                         aria-controls="collapseTwo"
                                     >
-                                        Streamlining Production for a Flawless Experience
+                                        What amenities are available for guests at Manisha 2?
                                     </button>
                                 </h2>
                                 <div
@@ -145,13 +125,8 @@ export default function Manisha2Section() {
                                     data-bs-parent="#accordionExample"
                                 >
                                     <div className="accordion-body">
-                                        Dolor <strong>almesit amet</strong>, consectetur adipiscing
-                                        elit, sed doesn't eiusmod tempor kinfolk tonx seitan crucifix 3
-                                        wolf moon bicycle rights keffiyeh snackwave wolf same vice,
-                                        chillwave vexillologist incididunt ut labore consectetur{" "}
-                                        <code>adipiscing</code> elit, sed do eiusmod tempor incididunt
-                                        ut labore et dolore magna aliqua.
-                                    </div>
+                                    Guests at Manisha 2 can enjoy a range of <strong>amenities</strong> designed to enhance their experience. The villa features spacious interiors, modern furnishings, and ample outdoor space for gatherings. Additionally, flexible food options are available through <strong>ALA carte</strong>, ensuring that all catering needs are met.
+</div>
                                 </div>
                             </div>
                             <div className="accordion-item">
@@ -164,7 +139,7 @@ export default function Manisha2Section() {
                                         aria-expanded="false"
                                         aria-controls="collapseThree"
                                     >
-                                        The Ideal Choice for Your Upcoming Project
+                                         Is there parking available at Manisha 2?
                                     </button>
                                 </h2>
                                 <div
@@ -174,13 +149,7 @@ export default function Manisha2Section() {
                                     data-bs-parent="#accordionExample"
                                 >
                                     <div className="accordion-body">
-                                        Dolor <strong>almesit amet</strong>, consectetur adipiscing
-                                        elit, sed doesn't eiusmod tempor kinfolk tonx seitan crucifix 3
-                                        wolf moon bicycle rights keffiyeh snackwave wolf same vice,
-                                        chillwave vexillologist incididunt ut labore consectetur{" "}
-                                        <code>adipiscing</code> elit, sed do eiusmod tempor incididunt
-                                        ut labore et dolore magna aliqua.
-                                    </div>
+                                    <strong>Yes</strong>, Manisha 2 offers convenient <strong>parking options</strong> for guests attending events. The property is designed to accommodate multiple vehicles, ensuring a hassle-free arrival and departure for all attendees.                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -238,31 +207,31 @@ export default function Manisha2Section() {
                                 </li>
                             </ul>
                         </div>
-                        <div style={{marginTop:'10%'}} className="info-table">
+                        <div style={{ marginTop: '10%' }} className="info-table">
                             <h3 style={{ padding: 10, paddingBottom: 20 }}>Terms Of Shooting</h3>
                             <ul>
                                 <li>
 
                                     <h4>
-                                        Day Shoot - Sole
+                                        Night Party Offer
                                         <br />
-                                        <span>9am To 9 pm Rs.20,000</span>
+                                        <span>9pm To 7am Rs.10,000</span>
                                     </h4>
                                 </li>
                                 <li>
 
                                     <h4>
-                                        Day Shoot - Join
+                                        Day Party Offer
                                         <br />
-                                        <span>9am To 9pm Rs.10,000</span>
+                                        <span>9am To 7pm Rs.15,000</span>
                                     </h4>
                                 </li>
                                 <li>
 
                                     <h4>
-                                        Night Shoot
+                                        Day / Night Party Offer
                                         <br />
-                                        <span>9am To 8am Rs.10,000</span>
+                                        <span>9am To Next Day 7am Rs.20,000</span>
                                     </h4>
                                 </li>
 
