@@ -11,7 +11,7 @@ const Manisha1Component = () => {
     <div className="row custom-row">
       <div className="col-lg-4 custom-col">
         <div className="left-image">
-          <img style={{ height: '100%', width: '100%', objectFit: 'cover' }} src={manish1Img.BUFFEE} alt="" />
+          <img style={{ height: '100%', width: '100%', objectFit: 'cover' }} src={manish1Img.GARDEN3} alt="" />
           <a href="property-details.html">
             <LiaFileContractSolid style={{ color: 'white', fontSize: 64 }} />
           </a>
@@ -74,7 +74,7 @@ const Manisha2Component = () => {
     <div className="row custom-row">
       <div className="col-lg-4 custom-col">
         <div className="left-image">
-          <img style={{ height: '100%', width: '100%', objectFit: 'cover' }} src={manish2Img.MANISHA3} alt="Manisha 2 Placeholder" />
+          <img style={{ height: '100%', width: '100%', objectFit: 'cover' }} src={manish2Img.LIVING3} alt="Manisha 2 Placeholder" />
           <a href="property-details.html">
             <LiaFileContractSolid style={{ color: 'white', fontSize: 64 }} />
           </a>
