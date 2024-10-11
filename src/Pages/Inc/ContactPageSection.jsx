@@ -9,7 +9,7 @@ export default function ContactPageSection() {
                     <div className="col-lg-6">
                         <div className="section-heading">
                             <h6>| Contact Us</h6>
-                            <h2>Get In Touch With Our Agents</h2>
+                            <h2>Get In Touch With Our Associates</h2>
                         </div>
                         <p>
                             When you really need to download free CSS templates, please remember
